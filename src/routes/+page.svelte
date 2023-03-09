@@ -7,7 +7,7 @@
 </script>
 
 <h1 class="text-2xl ">Welcome to SvelteKit</h1>
-<p class="text-red-600">
+<p class="text-violet">
 	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 {#each data.todos as todo}

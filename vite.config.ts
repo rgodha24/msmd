@@ -7,5 +7,15 @@ export default defineConfig({
 	plugins: [unocss({
 		presets: [presetWind()],
 		mode: "svelte-scoped",
+		theme: {
+			colors: {
+				black: "#353535",
+				violet: "#7d12ff",
+				purple: "#ab20fd",
+				white: "#ffffff",
+				gray: "#878787"
+			} 
+		},
+		
 	}), sveltekit(),]
 });
