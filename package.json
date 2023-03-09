@@ -9,7 +9,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"db-push": "prisma db push"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -28,12 +29,16 @@
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",
 		"unocss": "^0.50.4",
-		"vite": "^4.0.0"
+		"vite": "^4.0.0",
+		"tsx": "latest"
 	},
 	"type": "module",
 	"dependencies": {
 		"@auth/core": "^0.5.1",
 		"@auth/sveltekit": "^0.3.0",
 		"@prisma/client": "^4.11.0"
+	}, 
+	"prisma": {
+		"seed": "tsx prisma/seed.ts"
 	}
 }
