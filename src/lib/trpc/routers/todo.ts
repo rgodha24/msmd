@@ -1,7 +1,7 @@
-import { router, procedure } from "../router"
+import { router, procedure } from '../router';
 
-console.log(procedure)
+console.log(procedure);
 
 export const todoRouter = router({
-	test: procedure.query(() => "test" as const)
-})
+	test: procedure.query(() => 'test' as const)
+});
