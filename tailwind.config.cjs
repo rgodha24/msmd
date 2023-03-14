@@ -3,11 +3,11 @@
 module.exports = {
 	theme: {
 		colors: {
-			black: '#1E1E1E',
-			purple: '#C5A9EA',
-			yellow: '#FFD700',
-			white: '#ffffff',
-			gray: '#808080'
+			background: '#1E1E1E',
+			primary: '#C5A9EA',
+			secondary: '#808080',
+			accent: '#FFD700',
+			white: '#ffffff'
 		}
 	}
 };

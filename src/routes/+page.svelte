@@ -6,14 +6,14 @@
 	export let data: PageData;
 </script>
 
-<h1 class="text-2xl text-black">Monkey See Monkey Do</h1>
-<p class="text-yellow">
+<h1 class="text-2xl text-white">Monkey See Monkey Do</h1>
+<p class="text-primary">
 	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
-<p class="text-purple">
+<p class="text-secondary">
 	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
-<p class="text-gray">
+<p class="text-white">
 	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 

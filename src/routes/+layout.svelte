@@ -4,6 +4,6 @@
 
 <style>
 	:root {
-		@apply bg-black;
+		@apply bg-background;
 	}
 </style>
