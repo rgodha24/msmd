@@ -10,7 +10,7 @@ export default defineConfig({
 			mode: 'svelte-scoped',
 			theme: {
 				colors: {
-					background: '#020e29',
+					background: '#1f2226',
 					primary: '#c084fc',
 					secondary: '#e879f9',
 					text: '#d4d4d4'
