@@ -10,11 +10,11 @@ export default defineConfig({
 			mode: 'svelte-scoped',
 			theme: {
 				colors: {
-					black: '#353535',
-					violet: '#7d12ff',
-					purple: '#ab20fd',
-					white: '#ffffff',
-					gray: '#878787'
+					black: '#1E1E1E',
+				violet: '#C5A9EA',
+				yellow: '#FFD700',
+				white: '#ffffff',
+				gray: '#808080'
 				}
 			},
 			transformers: [

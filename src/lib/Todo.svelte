@@ -6,13 +6,10 @@
 	export let todo: Todo;
 	let checked: boolean = todo.done;
 	let answer = '';
-	async function test() {
-		answer = await trpc($page).greeting.query({ name: `${Math.random()}` });
-	}
 </script>
 
-<div class="flex my-4">
+<div class="flex my-4 text-white">
 	<input type="checkbox" name="complete" id="complete" bind:checked />
-	{answer}
-	<button on:click={() => test()} class="m-5"> test </button>
+	im a s tupid monkey
+	<div class="font-thin">awjefn awiefo iawjof iwaofihewaf ew</div>
 </div>
