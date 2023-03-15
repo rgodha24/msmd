@@ -8,7 +8,7 @@ import { createTRPCHandle } from 'trpc-sveltekit';
 
 export const handle = sequence(
 	SvelteKitAuth({
-		providers: []
+		providers: [], 
 	}),
 	createTRPCHandle({ router: trpcServer, createContext })
 ) satisfies Handle;
