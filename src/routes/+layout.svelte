@@ -1,5 +1,6 @@
 <script>
 	import { Navbar } from '$lib/Navbar';
+	import '@unocss/reset/tailwind.css';
 </script>
 
 <main class="w-full h-[100%]">

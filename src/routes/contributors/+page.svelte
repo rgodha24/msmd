@@ -1,8 +1,4 @@
 <script lang="ts">
-	import '@unocss/reset/tailwind.css';
-	import type { PageData } from '../$types';
-	import Todo from '$lib/Todo.svelte';
-
 </script>
 <div> 
 	<div class="topnav">

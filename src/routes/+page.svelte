@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '@unocss/reset/tailwind.css';
 	import type { PageData } from './$types';
 
 	export let data: PageData;

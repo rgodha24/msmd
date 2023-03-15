@@ -1,12 +1,8 @@
 <script lang="ts">
-	import '@unocss/reset/tailwind.css';
-	import type { PageData } from '../$types';
-	import Todo from '$lib/Todo.svelte';
-
 </script>
 <div> 
 	<div class="topnav">
-	<a class="active" href="../">Home</a>
+	<a class="active" href="/">Home</a>
 	<a href="/contributors">Contributors</a>
 	<a href="/about">About</a>
 </div>
