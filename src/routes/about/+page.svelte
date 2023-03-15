@@ -3,7 +3,7 @@
 
 <div>
 	<div class="topnav">
-		<a class="active" href="../">Home</a>
+		<a class="active" href="/">Home</a>
 		<a href="/contributors">Contributors</a>
 		<a href="/about">About</a>
 	</div>

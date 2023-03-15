@@ -1,10 +1,9 @@
 import { prisma } from '$lib/prisma';
 import type { PageServerLoad } from './$types';
 
-
-export const load = (async ({locals, parent}) => {
-	const todos = prisma.todo.findMany(); 
+export const load = (async ({ locals, parent }) => {
+	const todos = prisma.todo.findMany();
 	return {
-		todos,
+		todos
 	};
 }) satisfies PageServerLoad;
