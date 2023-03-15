@@ -3,7 +3,7 @@ import type { inferAsyncReturnType } from '@trpc/server';
 import { prisma } from '$lib/prisma';
 
 export async function createContext(event: RequestEvent) {
-	const session = await event.locals.getSession();
+	const { session, user } = await event.locals.validateUser();
 	return {
 		prisma,
 		session

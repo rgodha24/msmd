@@ -29,18 +29,19 @@
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"tslib": "^2.4.1",
-		"tsx": "latest",
+		"tsx": "^3.12.5",
 		"typescript": "^4.9.3",
 		"unocss": "^0.50.4",
 		"vite": "^4.0.0"
 	},
 	"type": "module",
 	"dependencies": {
-		"@auth/core": "^0.5.1",
-		"@auth/sveltekit": "^0.3.0",
+		"@lucia-auth/adapter-prisma": "^0.6.0",
+		"@lucia-auth/sveltekit": "^0.6.10",
 		"@prisma/client": "^4.11.0",
 		"@trpc/client": "^10.15.0",
 		"@trpc/server": "^10.15.0",
+		"lucia-auth": "^0.9.1",
 		"trpc-sveltekit": "^3.4.5",
 		"zod": "^3.21.4"
 	},

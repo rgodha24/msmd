@@ -1,9 +1,9 @@
 <script lang="ts">
 	import '@unocss/reset/tailwind.css';
-	import type { PageData } from './$types';
-
-	export let data: PageData;
 	import Todo from '$lib/Todo.svelte';
+	import type { PageData } from './$types';
+	import Todo from '$lib/Todo.svelte';
+
 </script>
 
 
